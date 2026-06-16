@@ -1,4 +1,4 @@
-# spotiinsta
+# spotify-to-instagram-stories
 
 A Python bot that watches the song you're **currently playing on Spotify**,
 generates a stylized "Now Playing" thumbnail and a short video clip, and posts it
