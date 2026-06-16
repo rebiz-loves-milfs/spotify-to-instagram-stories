@@ -3,7 +3,7 @@ moviepy
 requests
 spotipy
 ffmpeg-python
-youtube-dl
+yt-dlp
 pillow
 youtube-search
 instagrapi

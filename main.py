@@ -170,7 +170,10 @@ def search_and_download_youtube(track_name, artist_name, save_mp3):
         suf = yt_data['videos'][0]['url_suffix']
         link = 'https://youtube.com' + suf
         
-        import youtube_dl
+        try:
+            import yt_dlp as youtube_dl
+        except ImportError:
+            import youtube_dl
         ydl_opts = {
             'format': 'bestaudio/best',
             'outtmpl': save_mp3,
