@@ -1,0 +1,9 @@
+wget
+moviepy
+requests
+spotipy
+ffmpeg-python
+youtube-dl
+pillow
+youtube-search
+instagrapi

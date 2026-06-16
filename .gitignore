@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Runtime / downloaded media artifacts
+*.mp3
+*.mp4
+*.jpg
+*.jpeg
+*.png
+new_filename.mp4
+video.mp4
+picture.jpg
+last.txt
+
+# OS
+.DS_Store
